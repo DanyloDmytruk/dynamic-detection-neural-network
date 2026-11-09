@@ -1,0 +1,51 @@
+{
+  "total_samples": 655,
+  "feature_count": 29,
+  "features": [
+    "create_remote_thread_count",
+    "created_dll",
+    "created_exe",
+    "created_script",
+    "deleted_dll",
+    "deleted_exe",
+    "dns_query_count",
+    "driver_load_count",
+    "file_create_count",
+    "file_delete_count",
+    "file_stream_hash_count",
+    "image_load_count",
+    "network_connection_count",
+    "pipe_connect_count",
+    "pipe_create_count",
+    "process_access_count",
+    "process_create_count",
+    "process_tampering_count",
+    "process_terminate_count",
+    "registry_create_delete_count",
+    "registry_rename_count",
+    "registry_value_set_count",
+    "run_key_changes",
+    "service_registry_changes",
+    "unique_dns_domains",
+    "unique_loaded_images",
+    "unique_remote_ips",
+    "unique_remote_ports",
+    "wmi_activity_count"
+  ],
+  "classes": {
+    "benign": {
+      "label": 0,
+      "samples": 480
+    },
+    "malicious": {
+      "label": 1,
+      "samples": 175
+    }
+  },
+  "label_distribution": {
+    "0": 480,
+    "1": 175
+  },
+  "dataset_file": "/home/user/Documents/TEST/dynamic/data/dataset.csv",
+  "metadata_file": "/home/user/Documents/TEST/dynamic/data/metadata.csv"
+}

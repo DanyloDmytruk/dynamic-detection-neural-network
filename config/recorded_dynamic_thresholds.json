@@ -1,0 +1,6 @@
+{
+  "lightgbm_full_27_features": 0.38,
+  "mlp_27_features": 0.27,
+  "lightgbm_without_execution_duration_seconds": 0.59,
+  "lightgbm_without_execution_duration_seconds_and_event_count": 0.55
+}

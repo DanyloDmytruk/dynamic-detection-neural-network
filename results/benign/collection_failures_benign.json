@@ -1,0 +1,82 @@
+[
+  {
+    "sample": "benign_samples\\01a38ae91ae28ca9dcc89790292ad106a3f5bf8c16318b7ac9c1e7ab4ca628d4.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\03aed529543ac4ce2d9bb6b325f59686a06f1e9df112cf719a8e5222fffda801.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\056ef243d86778e7a84a840a8562f14ae6dcf1a00492bc82c74b2d1e3c165056.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\0a464a3765ffc0c23cf47345bf1185426af8e6b5711e015ca18027afcac2f2e0.exe",
+    "error": "Collection failed: [WinError 740] The requested operation requires elevation\n"
+  },
+  {
+    "sample": "benign_samples\\1302667485bd8b4dfcb5cc273cd05da1ca61927b5e923a5acbc2aaa1829ecfa1.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\1677d160b38b55b8e27e0c012a5ebb1a2ac34d87e515ca82412d9d3465507d80.exe",
+    "error": "Collection failed: [WinError 14001] The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail\n"
+  },
+  {
+    "sample": "benign_samples\\1e83c1a2f6f2b7080c7fefccff1fde4bb14aa8a57e851817c92a6f1c946ca17a.exe",
+    "error": "Collection failed: [WinError 193] %1 is not a valid Win32 application\n"
+  },
+  {
+    "sample": "benign_samples\\2ea4e14ea0250e212e217cc3663be8b1dde72a181016d6ba9a918299266953fc.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\2f031a1752f7067fb9f483ae0ac5f3036c9b66cc4af40e6ae609c0aba7c886d0.exe",
+    "error": "Collection failed: [WinError 577] Windows cannot verify the digital signature for this file. A recent hardware or software change might have installed a file that is signed incorrectly or damaged, or that might be malicious software from an unknown source\n"
+  },
+  {
+    "sample": "benign_samples\\322faaaa59d1a8290462dcb75abd05deb645689b4516040a9f0e848e57b92577.exe",
+    "error": "Collection failed: [WinError 193] %1 is not a valid Win32 application\n"
+  },
+  {
+    "sample": "benign_samples\\35a2d73b7a196673c4056e18c44729cf65806f55763aa6c026776f77509b3344.exe",
+    "error": "Collection failed: [WinError 193] %1 is not a valid Win32 application\n"
+  },
+  {
+    "sample": "benign_samples\\37df607966b7219faf58bb94e931b455b27e86c52c54878307c9a4c564067cf4.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\3846f2ce94d43e9ef6c08cd0abfb5c6c6c993b00d8690bbea40cc525b44cc0a3.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\4ea275757f53c5793c27078748cc15c076565b121f3dfdb12db93981ea76ed24.exe",
+    "error": "Collection failed: [WinError 193] %1 is not a valid Win32 application\n"
+  },
+  {
+    "sample": "benign_samples\\50e2677453fb89b7ba30c1e93a8bde682d4cd2ea37cfc3a8652b5adfead9e573.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\51ee81dbc0add93b11aa0d4ad02308243c1c194b4bed94722cb18bcf8f2836cf.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\634d81d9020c188a9b3092ba5db2d70c988b0388acbe94ef954985b0cdfcc5a2.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\647ff3ef69a5e98dd602f79dc236659994d7b32f96c1828122ea907df388f360.exe",
+    "error": "Collection failed: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher\n"
+  },
+  {
+    "sample": "benign_samples\\66a2604f0910eca2751e4d5eee487791cb0fcfdf00ba457a4aa4be4b32f6d8ce.exe",
+    "error": "Collection failed: [WinError 193] %1 is not a valid Win32 application\n"
+  },
+  {
+    "sample": "benign_samples\\734db8a127eba3f56ceacddf8d784fb4c6ff0d9524eaf0d2f75acd698ef9084c.exe",
+    "error": "Collection failed: [WinError 14001] The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail\n"
+  }
+]

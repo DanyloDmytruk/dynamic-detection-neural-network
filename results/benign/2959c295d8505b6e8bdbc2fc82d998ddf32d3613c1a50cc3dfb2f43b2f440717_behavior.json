@@ -1,0 +1,3521 @@
+{
+  "sample": "2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+  "sample_path": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+  "start_time": "2026-11-09T14:35:18.506514+00:00",
+  "root_pid": 4988,
+  "process_tree": [
+    4988
+  ],
+  "return_code": 1,
+  "event_count": 200,
+  "observation_duration_seconds": 30.906236,
+  "latest_event_time": "2026-11-09T14:35:46.0878960Z",
+  "features": {
+    "registry_create_delete_count": 147,
+    "pipe_create_count": 0,
+    "process_terminate_count": 1,
+    "dns_query_count": 0,
+    "pipe_connect_count": 0,
+    "create_remote_thread_count": 0,
+    "registry_value_set_count": 1,
+    "process_access_count": 0,
+    "wmi_activity_count": 0,
+    "image_load_count": 50,
+    "process_tampering_count": 0,
+    "file_delete_count": 0,
+    "process_create_count": 1,
+    "file_stream_hash_count": 0,
+    "file_create_count": 0,
+    "registry_rename_count": 0,
+    "driver_load_count": 0,
+    "network_connection_count": 0,
+    "event_count": 200,
+    "execution_duration_seconds": 30.90623559999949,
+    "process_count": 1,
+    "created_dll": 0,
+    "created_exe": 0,
+    "created_script": 0,
+    "deleted_dll": 0,
+    "deleted_exe": 0,
+    "run_key_changes": 0,
+    "service_registry_changes": 0,
+    "dns_domains": [],
+    "loaded_images": [
+      "c:\\test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+      "c:\\windows\\system32\\ntdll.dll",
+      "c:\\windows\\system32\\wow64.dll",
+      "c:\\windows\\system32\\wow64base.dll",
+      "c:\\windows\\system32\\wow64con.dll",
+      "c:\\windows\\system32\\wow64cpu.dll",
+      "c:\\windows\\system32\\wow64win.dll",
+      "c:\\windows\\syswow64\\advapi32.dll",
+      "c:\\windows\\syswow64\\apphelp.dll",
+      "c:\\windows\\syswow64\\bcrypt.dll",
+      "c:\\windows\\syswow64\\bcryptprimitives.dll",
+      "c:\\windows\\syswow64\\clbcatq.dll",
+      "c:\\windows\\syswow64\\combase.dll",
+      "c:\\windows\\syswow64\\coremessaging.dll",
+      "c:\\windows\\syswow64\\coreuicomponents.dll",
+      "c:\\windows\\syswow64\\crypt32.dll",
+      "c:\\windows\\syswow64\\cryptbase.dll",
+      "c:\\windows\\syswow64\\cryptsp.dll",
+      "c:\\windows\\syswow64\\dataexchange.dll",
+      "c:\\windows\\syswow64\\gdi32.dll",
+      "c:\\windows\\syswow64\\gdi32full.dll",
+      "c:\\windows\\syswow64\\gpapi.dll",
+      "c:\\windows\\syswow64\\imagehlp.dll",
+      "c:\\windows\\syswow64\\imm32.dll",
+      "c:\\windows\\syswow64\\kernel.appcore.dll",
+      "c:\\windows\\syswow64\\kernel32.dll",
+      "c:\\windows\\syswow64\\kernelbase.dll",
+      "c:\\windows\\syswow64\\msasn1.dll",
+      "c:\\windows\\syswow64\\msctf.dll",
+      "c:\\windows\\syswow64\\msls31.dll",
+      "c:\\windows\\syswow64\\msvcp_win.dll",
+      "c:\\windows\\syswow64\\msvcrt.dll",
+      "c:\\windows\\syswow64\\ntdll.dll",
+      "c:\\windows\\syswow64\\ole32.dll",
+      "c:\\windows\\syswow64\\oleaut32.dll",
+      "c:\\windows\\syswow64\\riched20.dll",
+      "c:\\windows\\syswow64\\rpcrt4.dll",
+      "c:\\windows\\syswow64\\rsaenh.dll",
+      "c:\\windows\\syswow64\\sechost.dll",
+      "c:\\windows\\syswow64\\shcore.dll",
+      "c:\\windows\\syswow64\\textinputframework.dll",
+      "c:\\windows\\syswow64\\twinapi.appcore.dll",
+      "c:\\windows\\syswow64\\ucrtbase.dll",
+      "c:\\windows\\syswow64\\user32.dll",
+      "c:\\windows\\syswow64\\usp10.dll",
+      "c:\\windows\\syswow64\\uxtheme.dll",
+      "c:\\windows\\syswow64\\win32u.dll",
+      "c:\\windows\\syswow64\\wintrust.dll",
+      "c:\\windows\\syswow64\\wintypes.dll",
+      "c:\\windows\\winsxs\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9711_none_85b4ef87f7b1112b\\comctl32.dll"
+    ],
+    "remote_ips": [],
+    "remote_ports": [],
+    "unique_dns_domains": 0,
+    "unique_loaded_images": 50,
+    "unique_parent_processes": 1,
+    "unique_processes": 1,
+    "unique_remote_ips": 0,
+    "unique_remote_ports": 0
+  },
+  "events": [
+    {
+      "event_id": 1,
+      "record_id": 1793230,
+      "time_created": "2026-11-09T14:35:19.4339805Z",
+      "data": {
+        "ParentCommandLine": "C:\\Users\\vboxuser\\AppData\\Local\\Python\\pythoncore-3.15-64\\python.exe C:\\Test\\windows\\collector.py benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe --timeout 30 --output results\\benign",
+        "Description": "TeamViewer 12",
+        "CommandLine": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "CurrentDirectory": "C:\\Test\\benign_samples\\",
+        "Hashes": "SHA256=2959C295D8505B6E8BDBC2FC82D998DDF32D3613C1A50CC3DFB2F43B2F440717",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.432",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "ParentUser": "TEST\\vboxuser",
+        "Company": "TeamViewer GmbH",
+        "IntegrityLevel": "High",
+        "FileVersion": "12.1.17833.0",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "TeamViewer",
+        "LogonId": "0x32f9e",
+        "ProcessId": "4988",
+        "OriginalFileName": "TeamViewer_Note.exe",
+        "LogonGuid": "{ca6c6237-ad62-6af1-9e2f-030000000000}",
+        "TerminalSessionId": "1",
+        "ParentProcessGuid": "{ca6c6237-da24-6af1-1c08-000000000500}",
+        "ParentProcessId": "4508",
+        "ParentImage": "C:\\Users\\vboxuser\\AppData\\Local\\Python\\pythoncore-3.15-64\\python.exe"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793234,
+      "time_created": "2026-11-09T14:35:19.4409702Z",
+      "data": {
+        "Description": "NT Layer DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=651AC9041AF8E6B5EBD331D53163244C0A27D36D1433F0F15CAC1F28C5F2E82C",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.440",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\ntdll.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "ntdll.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793235,
+      "time_created": "2026-11-09T14:35:19.4416235Z",
+      "data": {
+        "Description": "NT Layer DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=23D7772221E7A763CCF3F3FE39592086EB3091603554C4981F0AB430FA2CA686",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.440",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\ntdll.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "ntdll.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793237,
+      "time_created": "2026-11-09T14:35:19.4425307Z",
+      "data": {
+        "Description": "Win32 Emulation on NT64",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=83AD5652479DE8EA964BD397FC24B6B45040E85924263C0D18A92167BF8C2930",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.440",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\wow64.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "wow64.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793238,
+      "time_created": "2026-11-09T14:35:19.4430996Z",
+      "data": {
+        "Description": "Win32 Emulation on NT64",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=DEDD138C7662AEC509BA8DC0E540E2AE71241AFF73D395155F6D5AA0634FA3BA",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.442",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\wow64base.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "wow64base.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793239,
+      "time_created": "2026-11-09T14:35:19.4435914Z",
+      "data": {
+        "Description": "Wow64 Console and Win32 API Logging",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=E404928FC32BA91986F8643A39B496EFB82ACC55B1D57F56B7213E902911DC32",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.442",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\wow64win.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "wow64lg2.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793240,
+      "time_created": "2026-11-09T14:35:19.4441626Z",
+      "data": {
+        "Description": "Wow64 Console and Win32 API Logging",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=94E7229887FFC56EDEA4380C375DC21DD3C997BD0B541A7920CB296A6BFE27FD",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.442",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\wow64con.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "wow64con.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793241,
+      "time_created": "2026-11-09T14:35:19.4447480Z",
+      "data": {
+        "Description": "AMD64 Wow64 CPU ",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=88655CB219BE17C66887C44187A59BE47E9D17414B9D12C22E590DC41D9A7F27",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.442",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\System32\\wow64cpu.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "wow64cpu.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793242,
+      "time_created": "2026-11-09T14:35:19.4452799Z",
+      "data": {
+        "Description": "Windows NT BASE API Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=7F04765684DE5ECB702AFB5C4CFBFDE12A4E61A125389EE23166AA66430E62F0",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.444",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\kernel32.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "kernel32",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793243,
+      "time_created": "2026-11-09T14:35:19.4459660Z",
+      "data": {
+        "Description": "Windows NT BASE API Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=5BE784046DC9731D1C36E872A8022065ED4A733707B1E467B30A96588714B137",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.444",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "Kernelbase.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793267,
+      "time_created": "2026-11-09T14:35:19.4477324Z",
+      "data": {
+        "Description": "TeamViewer 12",
+        "SignatureStatus": "Valid",
+        "Signature": "TeamViewer GmbH",
+        "Hashes": "SHA256=2959C295D8505B6E8BDBC2FC82D998DDF32D3613C1A50CC3DFB2F43B2F440717",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.440",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "TeamViewer GmbH",
+        "ImageLoaded": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "FileVersion": "12.1.17833.0",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "TeamViewer",
+        "ProcessId": "4988",
+        "OriginalFileName": "TeamViewer_Note.exe",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793268,
+      "time_created": "2026-11-09T14:35:19.4484519Z",
+      "data": {
+        "Description": "Application Compatibility Client Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=A24077A2FD85F35D612D72D0E5E58FFBC72CFAF9D0B0F16B4A05EC815C4E7EFC",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.446",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\apphelp.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "Apphelp",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793269,
+      "time_created": "2026-11-09T14:35:19.4690692Z",
+      "data": {
+        "Description": "Windows NT CRT DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=EE42755429A48F9101D014BFB0E6B9A8C639D28EEBE954DB928476D38271FC63",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.466",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+        "FileVersion": "7.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "msvcrt.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793271,
+      "time_created": "2026-11-09T14:35:19.4696286Z",
+      "data": {
+        "Description": "Remote Procedure Call Runtime",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=EC3A63271D7DFE092CB54FE7AEB73FA055BC2FCA078456CA60AF675B16DB7F26",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.468",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "rpcrt4.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793295,
+      "time_created": "2026-11-09T14:35:19.4754754Z",
+      "data": {
+        "Description": "Microsoftr C Runtime Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=E4F8F92EEF00FF6A0C6D418AF756A59D5A4B818D0D1DE0D96CC193B4D6759432",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.474",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "ucrtbase.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793296,
+      "time_created": "2026-11-09T14:35:19.4760577Z",
+      "data": {
+        "Description": "Microsoft Trust Verification APIs",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=2493BB35E0059D89F957F745761926FE16A5169563BE0955F6D986A957B9926A",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.466",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\wintrust.dll",
+        "FileVersion": "10.0.26100.9549 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "WINTRUST.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793321,
+      "time_created": "2026-11-09T14:35:19.4829414Z",
+      "data": {
+        "Description": "Crypto API32",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=486202FF24154E7D80ECBA7503BF1D0DAA69439D66A2C70CA2171B4A2637F268",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.474",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\crypt32.dll",
+        "FileVersion": "10.0.26100.9549 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "CRYPT32.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793323,
+      "time_created": "2026-11-09T14:35:19.4862080Z",
+      "data": {
+        "Description": "Windows Cryptographic Primitives Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=515B70CF9325576C490F82E9B113506EC13E866CADA79089E73F1C44E62263FE",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.484",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\bcryptprimitives.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "bcryptprimitives.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793327,
+      "time_created": "2026-11-09T14:35:19.4865243Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\WinTrust\\Trust Providers\\Software Publishing",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.486",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793348,
+      "time_created": "2026-11-09T14:35:19.4884602Z",
+      "data": {
+        "Description": "ASN.1 Runtime APIs",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=8FCCC46540F3C2ABA3B6090B1A5DCBE9DB9AE789CFA2B1C0149AFF124AD0A643",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.476",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\msasn1.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "msasn1.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793373,
+      "time_created": "2026-11-09T14:35:19.4932662Z",
+      "data": {
+        "Description": "Windows Cryptographic Primitives Library (Wow64)",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=7976959708DC1A74C0DEABB1A640CFAE561837D0453A7C9A72E489727650C531",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.492",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\bcrypt.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "bcrypt.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793374,
+      "time_created": "2026-11-09T14:35:19.4933706Z",
+      "data": {
+        "Description": "Cryptographic Service Provider API",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=C58992E35E5A2B5A36E0C52A6D677222BA9580FB1E1F1311C84DAFC74BBB0F9E",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.480",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\cryptsp.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "cryptsp.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793375,
+      "time_created": "2026-11-09T14:35:19.4936844Z",
+      "data": {
+        "Description": "Host for SCM/SDDL/LSA Lookup APIs",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=BBD435790062E8243D7361969CA016AE0F9E0D6D1A8E1BF052F00732B31BAF93",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.492",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\sechost.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "sechost.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793400,
+      "time_created": "2026-11-09T14:35:19.4986995Z",
+      "data": {
+        "Description": "Microsoft Enhanced Cryptographic Provider",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=898179763B3FC4B288820CEB8EE24605375F7E0E98D0A27A2D95430B818D37E8",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.482",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\rsaenh.dll",
+        "FileVersion": "10.0.26100.7705 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "rsaenh.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793425,
+      "time_created": "2026-11-09T14:35:19.5038480Z",
+      "data": {
+        "Description": "Base cryptographic API DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=2CA04BA1A96BD0F7E8084ADD53048B2A414D4201ED7FE55C82EA8FB6BDAEB5BA",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.484",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\cryptbase.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "cryptbase.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793450,
+      "time_created": "2026-11-09T14:35:19.5079404Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793451,
+      "time_created": "2026-11-09T14:35:19.5080745Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793452,
+      "time_created": "2026-11-09T14:35:19.5081707Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\CA\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793453,
+      "time_created": "2026-11-09T14:35:19.5083800Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\CA\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793454,
+      "time_created": "2026-11-09T14:35:19.5084176Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\CA\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793455,
+      "time_created": "2026-11-09T14:35:19.5085755Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793456,
+      "time_created": "2026-11-09T14:35:19.5085896Z",
+      "data": {
+        "Description": "Windows NT Image Helper",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=4D46DF4B5618698CD5AEEB872E390C82E0288CE5255B3D5A6622F196A9E3CF47",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.487",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\imagehlp.dll",
+        "FileVersion": "10.0.26100.4202 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "IMAGEHLP.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793457,
+      "time_created": "2026-11-09T14:35:19.5085951Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\CA\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793458,
+      "time_created": "2026-11-09T14:35:19.5086633Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\CA\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793459,
+      "time_created": "2026-11-09T14:35:19.5087133Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\CA\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793460,
+      "time_created": "2026-11-09T14:35:19.5088933Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793461,
+      "time_created": "2026-11-09T14:35:19.5089681Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793462,
+      "time_created": "2026-11-09T14:35:19.5090577Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\CA\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793463,
+      "time_created": "2026-11-09T14:35:19.5092055Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\CA\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793464,
+      "time_created": "2026-11-09T14:35:19.5093150Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\CA\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793465,
+      "time_created": "2026-11-09T14:35:19.5094167Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793466,
+      "time_created": "2026-11-09T14:35:19.5094370Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\CA\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793467,
+      "time_created": "2026-11-09T14:35:19.5094936Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\CA\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793468,
+      "time_created": "2026-11-09T14:35:19.5095318Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\CA\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793469,
+      "time_created": "2026-11-09T14:35:19.5096860Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.507",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793470,
+      "time_created": "2026-11-09T14:35:19.5097895Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\CA",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793471,
+      "time_created": "2026-11-09T14:35:19.5098593Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\CA\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793472,
+      "time_created": "2026-11-09T14:35:19.5099007Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\CA\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793473,
+      "time_created": "2026-11-09T14:35:19.5099189Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\CA\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793474,
+      "time_created": "2026-11-09T14:35:19.5100847Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793475,
+      "time_created": "2026-11-09T14:35:19.5102350Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793476,
+      "time_created": "2026-11-09T14:35:19.5102675Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793477,
+      "time_created": "2026-11-09T14:35:19.5103248Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793478,
+      "time_created": "2026-11-09T14:35:19.5103420Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793479,
+      "time_created": "2026-11-09T14:35:19.5105019Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793480,
+      "time_created": "2026-11-09T14:35:19.5105212Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793481,
+      "time_created": "2026-11-09T14:35:19.5105528Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793482,
+      "time_created": "2026-11-09T14:35:19.5105736Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793483,
+      "time_created": "2026-11-09T14:35:19.5106631Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793484,
+      "time_created": "2026-11-09T14:35:19.5107925Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793485,
+      "time_created": "2026-11-09T14:35:19.5108125Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793486,
+      "time_created": "2026-11-09T14:35:19.5108663Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793487,
+      "time_created": "2026-11-09T14:35:19.5108834Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793488,
+      "time_created": "2026-11-09T14:35:19.5110070Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793489,
+      "time_created": "2026-11-09T14:35:19.5110427Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793490,
+      "time_created": "2026-11-09T14:35:19.5111019Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793491,
+      "time_created": "2026-11-09T14:35:19.5111189Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793492,
+      "time_created": "2026-11-09T14:35:19.5112042Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793493,
+      "time_created": "2026-11-09T14:35:19.5112637Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793494,
+      "time_created": "2026-11-09T14:35:19.5112916Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793495,
+      "time_created": "2026-11-09T14:35:19.5113424Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793496,
+      "time_created": "2026-11-09T14:35:19.5113578Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793497,
+      "time_created": "2026-11-09T14:35:19.5115281Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Root",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793498,
+      "time_created": "2026-11-09T14:35:19.5116631Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Root",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793499,
+      "time_created": "2026-11-09T14:35:19.5117630Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Root\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793500,
+      "time_created": "2026-11-09T14:35:19.5117799Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Root\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.509",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793501,
+      "time_created": "2026-11-09T14:35:19.5118437Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Root\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793502,
+      "time_created": "2026-11-09T14:35:19.5120378Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\ROOT",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793503,
+      "time_created": "2026-11-09T14:35:19.5121058Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\ROOT",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793504,
+      "time_created": "2026-11-09T14:35:19.5121333Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\ROOT\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793505,
+      "time_created": "2026-11-09T14:35:19.5125523Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\ROOT\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793506,
+      "time_created": "2026-11-09T14:35:19.5126007Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\ROOT\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793507,
+      "time_created": "2026-11-09T14:35:19.5126807Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793508,
+      "time_created": "2026-11-09T14:35:19.5127289Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793509,
+      "time_created": "2026-11-09T14:35:19.5133380Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793510,
+      "time_created": "2026-11-09T14:35:19.5133857Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793511,
+      "time_created": "2026-11-09T14:35:19.5134502Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793512,
+      "time_created": "2026-11-09T14:35:19.5135048Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793513,
+      "time_created": "2026-11-09T14:35:19.5135205Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793514,
+      "time_created": "2026-11-09T14:35:19.5135992Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793515,
+      "time_created": "2026-11-09T14:35:19.5136859Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Root",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793516,
+      "time_created": "2026-11-09T14:35:19.5137677Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Root",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793517,
+      "time_created": "2026-11-09T14:35:19.5137847Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Root\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793518,
+      "time_created": "2026-11-09T14:35:19.5138127Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Root\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793519,
+      "time_created": "2026-11-09T14:35:19.5138460Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Root\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.511",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793520,
+      "time_created": "2026-11-09T14:35:19.5139004Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\SmartCardRoot",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793521,
+      "time_created": "2026-11-09T14:35:19.5139290Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\SmartCardRoot\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793522,
+      "time_created": "2026-11-09T14:35:19.5139436Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\SmartCardRoot\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793523,
+      "time_created": "2026-11-09T14:35:19.5139935Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\SmartCardRoot\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793524,
+      "time_created": "2026-11-09T14:35:19.5141044Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\SmartCardRoot",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793525,
+      "time_created": "2026-11-09T14:35:19.5141221Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\SmartCardRoot\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793526,
+      "time_created": "2026-11-09T14:35:19.5141738Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\SmartCardRoot\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793527,
+      "time_created": "2026-11-09T14:35:19.5141899Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\SmartCardRoot\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793528,
+      "time_created": "2026-11-09T14:35:19.5143421Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793529,
+      "time_created": "2026-11-09T14:35:19.5144708Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793530,
+      "time_created": "2026-11-09T14:35:19.5145006Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\TrustedPeople\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793531,
+      "time_created": "2026-11-09T14:35:19.5145293Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\TrustedPeople\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793532,
+      "time_created": "2026-11-09T14:35:19.5145882Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\TrustedPeople\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793533,
+      "time_created": "2026-11-09T14:35:19.5146775Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793534,
+      "time_created": "2026-11-09T14:35:19.5147073Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793535,
+      "time_created": "2026-11-09T14:35:19.5148232Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793536,
+      "time_created": "2026-11-09T14:35:19.5148399Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793537,
+      "time_created": "2026-11-09T14:35:19.5149754Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793538,
+      "time_created": "2026-11-09T14:35:19.5150388Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793539,
+      "time_created": "2026-11-09T14:35:19.5150818Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\TrustedPeople\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793540,
+      "time_created": "2026-11-09T14:35:19.5151090Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\TrustedPeople\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793541,
+      "time_created": "2026-11-09T14:35:19.5151492Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\TrustedPeople\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793542,
+      "time_created": "2026-11-09T14:35:19.5152216Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793543,
+      "time_created": "2026-11-09T14:35:19.5152508Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793544,
+      "time_created": "2026-11-09T14:35:19.5152829Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793545,
+      "time_created": "2026-11-09T14:35:19.5153129Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\TrustedPeople\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793546,
+      "time_created": "2026-11-09T14:35:19.5154121Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793547,
+      "time_created": "2026-11-09T14:35:19.5154751Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\TrustedPeople",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793548,
+      "time_created": "2026-11-09T14:35:19.5155430Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\TrustedPeople\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793549,
+      "time_created": "2026-11-09T14:35:19.5155799Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\TrustedPeople\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793550,
+      "time_created": "2026-11-09T14:35:19.5155943Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\TrustedPeople\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793551,
+      "time_created": "2026-11-09T14:35:19.5157546Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.513",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793552,
+      "time_created": "2026-11-09T14:35:19.5158671Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793553,
+      "time_created": "2026-11-09T14:35:19.5159172Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\trust\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793554,
+      "time_created": "2026-11-09T14:35:19.5159334Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\trust\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793555,
+      "time_created": "2026-11-09T14:35:19.5159820Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\trust\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793556,
+      "time_created": "2026-11-09T14:35:19.5160689Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793557,
+      "time_created": "2026-11-09T14:35:19.5161190Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\trust\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793558,
+      "time_created": "2026-11-09T14:35:19.5161947Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\trust\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793559,
+      "time_created": "2026-11-09T14:35:19.5162221Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\trust\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793560,
+      "time_created": "2026-11-09T14:35:19.5163091Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793561,
+      "time_created": "2026-11-09T14:35:19.5163678Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793562,
+      "time_created": "2026-11-09T14:35:19.5164045Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\trust\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793563,
+      "time_created": "2026-11-09T14:35:19.5164316Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\trust\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793564,
+      "time_created": "2026-11-09T14:35:19.5164681Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\trust\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793565,
+      "time_created": "2026-11-09T14:35:19.5165529Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793566,
+      "time_created": "2026-11-09T14:35:19.5165842Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\trust\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793567,
+      "time_created": "2026-11-09T14:35:19.5166362Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\trust\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793568,
+      "time_created": "2026-11-09T14:35:19.5166516Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\trust\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793569,
+      "time_created": "2026-11-09T14:35:19.5167288Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793570,
+      "time_created": "2026-11-09T14:35:19.5167899Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Trust",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793571,
+      "time_created": "2026-11-09T14:35:19.5168417Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Trust\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793572,
+      "time_created": "2026-11-09T14:35:19.5168581Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Trust\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793573,
+      "time_created": "2026-11-09T14:35:19.5168973Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Trust\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.515",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793575,
+      "time_created": "2026-11-09T14:35:19.5205763Z",
+      "data": {
+        "Description": "Microsoftr C Runtime Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=91F1723B4E2D4E4907FD28AFE5EF5730F09546BA61276D240C9DAB32D1B1C077",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.519",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "msvcp_win.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793576,
+      "time_created": "2026-11-09T14:35:19.5209848Z",
+      "data": {
+        "Description": "SHCORE",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=0741CDAA8AD05BF6DF8256BDF1DA7E6AE686F7A33B4970C8927DDC5832D34313",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.519",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\SHCore.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "SHCORE.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793600,
+      "time_created": "2026-11-09T14:35:19.5249016Z",
+      "data": {
+        "Description": "Group Policy Client API",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=DE775D3AD495A67F5AB94EC7A628BF457568D17BA26707C2B2C7C3FEEC0AEF35",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.519",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\gpapi.dll",
+        "FileVersion": "10.0.26100.8972 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "gpapi.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793601,
+      "time_created": "2026-11-09T14:35:19.5281951Z",
+      "data": {
+        "Description": "Advanced Windows 32 Base API",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=205B0876A577E7A455958362563C58857A468697C83847B7CDF71ECC3AB5AA07",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.526",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\advapi32.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "advapi32.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793602,
+      "time_created": "2026-11-09T14:35:19.5287909Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793603,
+      "time_created": "2026-11-09T14:35:19.5290150Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793604,
+      "time_created": "2026-11-09T14:35:19.5290899Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793605,
+      "time_created": "2026-11-09T14:35:19.5291493Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793606,
+      "time_created": "2026-11-09T14:35:19.5292252Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793607,
+      "time_created": "2026-11-09T14:35:19.5294196Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793608,
+      "time_created": "2026-11-09T14:35:19.5294803Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793609,
+      "time_created": "2026-11-09T14:35:19.5295591Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793610,
+      "time_created": "2026-11-09T14:35:19.5296235Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKU\\S-1-5-21-4219332146-2542030248-1798710043-1000\\Software\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.527",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793611,
+      "time_created": "2026-11-09T14:35:19.5297887Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793612,
+      "time_created": "2026-11-09T14:35:19.5299582Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793613,
+      "time_created": "2026-11-09T14:35:19.5300306Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793614,
+      "time_created": "2026-11-09T14:35:19.5300912Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793615,
+      "time_created": "2026-11-09T14:35:19.5301602Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793616,
+      "time_created": "2026-11-09T14:35:19.5303404Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793617,
+      "time_created": "2026-11-09T14:35:19.5303899Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793618,
+      "time_created": "2026-11-09T14:35:19.5304659Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793619,
+      "time_created": "2026-11-09T14:35:19.5305098Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793620,
+      "time_created": "2026-11-09T14:35:19.5306419Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793621,
+      "time_created": "2026-11-09T14:35:19.5307563Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793622,
+      "time_created": "2026-11-09T14:35:19.5308187Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\Certificates",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793623,
+      "time_created": "2026-11-09T14:35:19.5308958Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\CRLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 12,
+      "record_id": 1793624,
+      "time_created": "2026-11-09T14:35:19.5309561Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\EnterpriseCertificates\\Disallowed\\CTLs",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:19.529",
+        "RuleName": "-",
+        "EventType": "CreateKey",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793626,
+      "time_created": "2026-11-09T14:35:19.5400757Z",
+      "data": {
+        "Description": "Multi-User Windows USER API Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=56F3BC77020E21EBEEF825965929DC0D0BD87F9CAFBB08DBCD477043E4342D2E",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.539",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\user32.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "user32",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793627,
+      "time_created": "2026-11-09T14:35:19.5405057Z",
+      "data": {
+        "Description": "Win32u",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=31B7FE5EA35A8C0A79051C58C8E0AE1ADDCDA323F661846B60DCFEB1152E5A1C",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.539",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\win32u.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "Win32u.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793629,
+      "time_created": "2026-11-09T14:35:19.5408936Z",
+      "data": {
+        "Description": "GDI Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=7C3CB17BC41A00E5167A82AEF67D0DA4A09E73E6DEBA9ADDCDC8B20A90B5186C",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.539",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\gdi32.dll",
+        "FileVersion": "10.0.26100.8521 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "gdi32",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793630,
+      "time_created": "2026-11-09T14:35:19.5412607Z",
+      "data": {
+        "Description": "GDI Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=FCD5BFB5B2CC400B472FC4682600AE687C2D3C4ECB734EFF0F9FA9067D39EABC",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.539",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "gdi32",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793632,
+      "time_created": "2026-11-09T14:35:19.5467277Z",
+      "data": {
+        "Description": "Multi-User Windows IMM32 API Client DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=027D404EA547F446740336B90DC69B0CFA7C2BEA4F1F366053251364F0EEFE02",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.545",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\imm32.dll",
+        "FileVersion": "10.0.26100.9278 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "imm32",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793656,
+      "time_created": "2026-11-09T14:35:19.5498536Z",
+      "data": {
+        "Description": "Rich Text Edit Control, v3.1",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=4AED9C848C4FE1FC419169172690145CE97FE3522749F83F427FF3B6F580733A",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.539",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\riched20.dll",
+        "FileVersion": "5.31.23.1231",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoft RichEdit Control, version 3.1",
+        "ProcessId": "4988",
+        "OriginalFileName": "riched20.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793658,
+      "time_created": "2026-11-09T14:35:19.5505492Z",
+      "data": {
+        "Description": "Microsoft UxTheme Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=B8F725A4A0F3E3A0162F9BF01D07BF78019774F96A8F931C67780FAE866084A9",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.549",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\uxtheme.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "UxTheme.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793659,
+      "time_created": "2026-11-09T14:35:19.5510236Z",
+      "data": {
+        "Description": "Microsoft COM for Windows",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=E698BF74F2A046CA44B99C96100257EF56941321DFABC304522B0C655AB46B85",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.549",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\combase.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "COMBASE.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793661,
+      "time_created": "2026-11-09T14:35:19.5546753Z",
+      "data": {
+        "Description": "MSCTF Server DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=A3D5A7E2D4C949BBF10B0ADCC862C613D5F87B72C18C0B0C9A60ACEFAB9504C7",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.552",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\msctf.dll",
+        "FileVersion": "10.0.26100.9549 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "MSCTF.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793686,
+      "time_created": "2026-11-09T14:35:19.5589796Z",
+      "data": {
+        "Description": "Uniscribe Unicode script processor",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=DCA2500FCC234BAE95AE9BE06EEF3710D63E78A4A002872F5E089A134AEBA741",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.543",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\usp10.dll",
+        "FileVersion": "10.0.26100.1 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "USP10.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793689,
+      "time_created": "2026-11-09T14:35:19.5610885Z",
+      "data": {
+        "Description": "User Experience Controls Library",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=CE8E25E1523C2713DFBAF91437B66E359BB59441126835387CCA6AEDE405CAB0",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.558",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9711_none_85b4ef87f7b1112b\\comctl32.dll",
+        "FileVersion": "6.10 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "comctl32.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793690,
+      "time_created": "2026-11-09T14:35:19.5627810Z",
+      "data": {
+        "Description": "Microsoft OLE for Windows",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=96896789276E71143335176A6ECD5B5F02658B1800C6E47346D1B3CABE137CB1",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.560",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\ole32.dll",
+        "FileVersion": "10.0.26100.9549 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "OLE32.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793692,
+      "time_created": "2026-11-09T14:35:19.5648966Z",
+      "data": {
+        "Description": "AppModel API Host",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=B1D3E1C0CD752BE86AB59E151B9627F703A30C6D4D43BCB14522EA738B1886F4",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.562",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+        "FileVersion": "10.0.26100.9278 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "kernel.appcore.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793718,
+      "time_created": "2026-11-09T14:35:19.5694395Z",
+      "data": {
+        "Description": "Microsoft Line Services library file",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=F729698EF1853E531952F94B34542E6D4A42E581D8C1E835C15A1A7F296118A4",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.543",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\msls31.dll",
+        "FileVersion": "3.10.349.0",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Line Services",
+        "ProcessId": "4988",
+        "OriginalFileName": "MSLS31.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793719,
+      "time_created": "2026-11-09T14:35:19.5700055Z",
+      "data": {
+        "Description": "COM+ Configuration Catalog",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=7BE38ECE51C9A8342975E4C025FD095DFFDDD9BAEE00B385516B4FAF417C90DA",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.568",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\clbcatq.dll",
+        "FileVersion": "2001.12.10941.16384 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "CLBCATQ.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793746,
+      "time_created": "2026-11-09T14:35:19.5891878Z",
+      "data": {
+        "Description": "Data exchange",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=607B0E16A5CE664CABDBE2404CD3DB6EC16007B7BA72805AEFE2FF803D58056F",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.578",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\DataExchange.dll",
+        "FileVersion": "10.0.26100.9549 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "DataExchange.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793756,
+      "time_created": "2026-11-09T14:35:19.5941731Z",
+      "data": {
+        "Description": "OLEAUT32.DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=D593243C06ADC9A1812B0E6AE5B600429D4B1828DCFA6C6B823D5CA3362C0067",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.591",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\oleaut32.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "OLEAUT32.DLL",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793761,
+      "time_created": "2026-11-09T14:35:19.6001166Z",
+      "data": {
+        "Description": "\"TextInputFramework.DYNLINK\"",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=0F9BAEBCC4B95544EEEF9B2856855D3B3C3199F9BFF68BB244B36CB5C3007DC1",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.597",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\TextInputFramework.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "\"TextInputFramework.DYNLINK\"",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793783,
+      "time_created": "2026-11-09T14:35:19.6019921Z",
+      "data": {
+        "Description": "twinapi.appcore",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=25A020F5DB54C2ABF7F07F62A9C2F30F8BAC556CF367244E378A3098508499B4",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.584",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\twinapi.appcore.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "twinapi.appcore.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793808,
+      "time_created": "2026-11-09T14:35:19.6133952Z",
+      "data": {
+        "Description": "Microsoft CoreMessaging Dll",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=C0D256D85C1A6336742E14D337C8FCCB6CEF74B6D9D8D1BBEA10AC9115280249",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.603",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\CoreMessaging.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "CoreMessaging.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793810,
+      "time_created": "2026-11-09T14:35:19.6190147Z",
+      "data": {
+        "Description": "Windows Base Types DLL",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=EA66CB2E7298E68688E5058DD10DFC46B6D0E48586A728C46628736129B50F31",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.617",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\WinTypes.dll",
+        "FileVersion": "10.0.26100.9711 (WinBuild.160101.0800)",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "WinTypes.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 7,
+      "record_id": 1793844,
+      "time_created": "2026-11-09T14:35:19.6416138Z",
+      "data": {
+        "Description": "Microsoft Core UI Components Dll",
+        "SignatureStatus": "Valid",
+        "Signature": "Microsoft Windows",
+        "Hashes": "SHA256=C81587CFBB5C6621665A0CFFA8E0068E2AF26BC4F7AEA76C564E6FD81A622827",
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "UtcTime": "2026-11-09 14:35:19.615",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Company": "Microsoft Corporation",
+        "ImageLoaded": "C:\\Windows\\SysWOW64\\CoreUIComponents.dll",
+        "FileVersion": "10.0.26100.9549",
+        "User": "TEST\\vboxuser",
+        "RuleName": "-",
+        "Product": "Microsoftr Windowsr Operating System",
+        "ProcessId": "4988",
+        "OriginalFileName": "CoreUIComponents.dll",
+        "Signed": "true"
+      }
+    },
+    {
+      "event_id": 5,
+      "record_id": 1796593,
+      "time_created": "2026-11-09T14:35:46.0878626Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:46.086",
+        "RuleName": "-",
+        "User": "TEST\\vboxuser"
+      }
+    },
+    {
+      "event_id": 13,
+      "record_id": 1796594,
+      "time_created": "2026-11-09T14:35:46.0878960Z",
+      "data": {
+        "Image": "C:\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessGuid": "{ca6c6237-da27-6af1-1e08-000000000500}",
+        "Details": "Binary Data",
+        "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-4219332146-2542030248-1798710043-1000\\\\Device\\HarddiskVolume4\\Test\\benign_samples\\2959c295d8505b6e8bdbc2fc82d998ddf32d3613c1a50cc3dfb2f43b2f440717.exe",
+        "ProcessId": "4988",
+        "UtcTime": "2026-11-09 14:35:46.086",
+        "RuleName": "-",
+        "EventType": "SetValue",
+        "User": "TEST\\vboxuser"
+      }
+    }
+  ],
+  "collector_note": "Reconstructed collector. Validate telemetry and feature parity against the original implementation."
+}
